@@ -1,0 +1,11 @@
+#messageContainer {
+    border: 1px solid white;
+    max-width: 100%;
+    display: flex;
+}
+
+#message {
+    width: 100px;
+    border: 1px solid white;
+    margin-left: 25%;
+}
