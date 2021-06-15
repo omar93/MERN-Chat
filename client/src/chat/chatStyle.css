@@ -1,0 +1,9 @@
+#chatContainer {
+    background-color: red;
+    display: grid;
+    grid-template-rows: 1fr 50px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+    'messages'
+    'input';
+}

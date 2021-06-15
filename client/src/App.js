@@ -1,5 +1,5 @@
 import './App.css'
-import Chat from './chat/chat.js'
+import Chat from './chat/chat'
 
 function App() {
   fetch('http://localhost:5000')

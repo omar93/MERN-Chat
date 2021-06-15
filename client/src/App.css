@@ -10,7 +10,8 @@ body {
   grid-template-rows: 100px 1fr;
   grid-template-areas: 
   'sidebar  header'
-  'sidebar  main';
+  'sidebar  main'
+  'sidebar form';
 }
 
 #header {
@@ -26,4 +27,8 @@ body {
 #sidebar {
   border: 1px solid red;
   grid-area: sidebar;
+}
+
+#formContainer {
+  grid-area: form;
 }

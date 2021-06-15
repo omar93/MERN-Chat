@@ -1,6 +1,7 @@
-import './style.css'
+import './chatStyle.css'
 import React, { Component } from 'react'
-import Message from '../message/message'
+import MessageList from '../messageList/messageList'
+import Form from '../input/form'
 
 export default class chat extends Component {
   state = {
@@ -18,8 +19,11 @@ export default class chat extends Component {
   render() {
     return (
       <div id="chatContainer">
-        <Message></Message>
-        <Message></Message>
+
+        <div id="messageListContainer"><MessageList></MessageList></div>
+
+        <div id="formContainer"><Form></Form></div>
+
       </div>
     )
   }

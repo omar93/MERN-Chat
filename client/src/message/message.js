@@ -1,12 +1,12 @@
-import React, { Component } from 'react'
-import './style.css'
+import './messageStyle.css'
 
-export default class message extends Component {
-  render() {
-    return (
-      <div id="messageContainer">
-        <p id="message">Message</p>
-      </div>
-    )
-  }
+const message = props => {
+  return (
+    <div id="messageContainer">
+      <p id="message">Sender: {props.name}</p>
+      <p id="message">Message: {props.message}</p>
+    </div>
+  )
 }
+
+export default message;
